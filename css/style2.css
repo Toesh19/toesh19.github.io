@@ -1,0 +1,69 @@
+#wrapper {display: grid ; background-color: #8AAAE5;
+	grid-template-areas:
+		
+		"homepage awards background"
+	    "skills paragraph paragraph"
+          "image paragraph paragraph";
+	background-color: #8AAAE5;
+	/* This is the wrapper that includes my grid template area for the page */
+	color: white; /* Makes the font colour white for all areas */
+}
+#skills, #awards, #background,  #homepage, #about, #paragraph, #body{
+	border: 1px solid white; /* Provides a white border for all the grid areas */
+	
+}
+
+#skills {grid-area: skills; /* This code include making the skills area is a light blue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+	 margin: 20px;
+padding: 10px; 
+  text-align: center;
+	border-radius: 30px; /* Makes the corners more round */
+}
+
+#homepage {grid-area: homepage; /* This code include making the homepage area is a light blue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+	padding: 5px; 
+ margin: 20px;
+  text-align: center;
+	border-radius: 30px; /* Makes the corners more round */
+
+		
+}
+#awards {grid-area: awards; /* This code include making the awards area is a light blue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+			padding: 5px; 
+  text-align: center;
+	 margin: 20px;
+	border-radius: 30px; /* Makes the corners more round */
+
+		
+}
+#background {grid-area: background; /* This code include making the background area is a light blue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+	padding: 5px; 
+  text-align: center;
+	border-radius: 30px; /* Makes the corners more round */
+	 margin: 20px;
+}
+#image {grid-area: image; /* This is the grid area for the image of the BDSC logo */
+	
+	padding: 20px; 
+  text-align: center;
+	 margin: 10px;
+		
+}
+#paragraph {grid-area: paragraph; /* This code include making the paragraph area is a light blue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+	 margin: 10px;
+padding: 20px; 
+  text-align: center;
+	color: white; /* Makes the text white instead of black */
+	border-color: white /* This makes the border colour of the box white instead of black */
+}
+
+
+a{
+	text-decoration: none; /* Make sure that when the texts are linked to other pages it isn't underlined or a different colour or anything like that */
+	color: white; /* Makes those linked texts white */
+}

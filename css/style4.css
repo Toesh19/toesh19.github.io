@@ -1,0 +1,80 @@
+#wrapper {display: grid ; background-color: #8AAAE5; grid-template-areas: 
+		"early homepage recent"
+	    "early skills recent"
+		"early background recent"
+        "early awards recent"
+	    "early awards recent"
+		"early awards recent";
+	color: white; /* This makes the font colour white for all areas */
+	/* This is the wrapper that includes my grid template area for the page */
+}
+#skills, #awards, #background, #image, #homepage, #early, #recent{
+	
+	border: 1px solid white; /* Provides a white border for all the grid areas */
+}
+
+#skills {grid-area: skills; /* This code include making the skills area a light blue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+	 margin: 20px;
+padding: 10px; 
+  text-align: center;
+		border-radius: 30px; /* Makes the corners more round */
+	
+}
+
+#homepage {grid-area: homepage;  /* This code include making the homepage area a light blue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+	padding: 5px; 
+ margin: 20px;
+  text-align:center;
+	border-radius: 30px;  /* Makes the corners more round */
+	align-items: center;
+	
+		
+	
+
+		
+}
+#awards {grid-area: awards;  /* This code include making the awards area a light blue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+			padding: 5px; 
+  text-align: center;
+	 margin: 20px;
+	font-size: 30px; /* Changes the text size */
+	border-radius: 200px; /* Makes the corners more round */
+	
+		
+	
+
+		
+}
+#background {grid-area: background;  /* This code include making the background area a light blue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+	padding: 5px; 
+  text-align: center; /* Aligns all the text together  */
+		border-radius: 30px; /* Makes the corners more round */
+	 margin: 20px;
+	
+}
+#early {grid-area: early;  /* This code include making the early awards area a light blue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+	 margin: 10px;
+padding: 20px; 
+  text-align: center;
+	color: white; /* Makes the text white instead of black */
+	border-color: white; /* Makes the border white instead of black */
+	font-size: 30px; /* Changes the text size */
+}
+#recent {grid-area: recent;  /* This code include making the recent awards area a light blue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+	 margin: 10px;
+padding: 20px; 
+  text-align: center;
+	color: white; /* Makes the text white instead of black */
+	border-color: white; /* Makes the border white instead of black */
+	font-size: 30px; /* Changes the text size */
+}
+a{
+	text-decoration: none; /* Make sure that when the texts are linked to other pages it isn't underlined or a different colour or anything like that */
+	color: white; /* Makes those linked texts white */
+}

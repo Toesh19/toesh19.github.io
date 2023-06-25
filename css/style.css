@@ -1,0 +1,87 @@
+#wrapper {display: grid ; background-color: #8AAAE5; 
+	 grid-template-areas:
+	
+		"skills awards background"
+	    "body body body"
+	"body body body";
+	background-color: #8AAAE5;
+	/* This is the wrapper that includes my grid template area for the page */
+		color: white; /* Makes the font colour for all the areas white */
+}
+#skills, #awards, #background,  #homepage,		#about #body{
+	
+	border: 1px solid white; /* Provides a black border for all the grid areas */
+}
+
+#skills {grid-area: skills; /* This code include making the skills area is a lightblue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+	 margin: 20px;
+padding: 10px; 
+  text-align: center;
+	
+	 border-radius: 30px; /* Makes the corners more round */
+
+
+}
+#body { /*Makes the body colour light blue and also has the template areas as well to make sure they are in the correct location*/
+	background-color: #8AAAE5; 
+	grid-area: body;
+}
+#body {
+	display: grid;
+		grid-template-areas: "about image image"
+							"homepage image image";
+	background-color: #8AAAE5; 
+}
+
+#homepage {grid-area: homepage; /* This code include making the homepage area a lightblue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: #8AAAE5;
+	padding: 40px	; 
+ margin: 20px;
+  text-align: center;
+border-radius: 30px; /* Makes the corners more round */
+	background-color: lightsteelblue;
+	font-size: 10px;
+		
+}
+#awards {grid-area: awards; /* This code include making the awards area a lightblue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+			padding: 10px; 
+  text-align: center;
+	 margin: 20px;
+	
+	border-radius: 30px; /* Makes the corners more round */
+
+		
+}
+#background {grid-area: background; /* This code include making the background area  a lightblue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+	padding: 10px; 
+  text-align: center;
+	
+	 margin: 20px;
+	border-radius: 30px;  /* Makes the corners more round */
+}
+#image {grid-area: image; /* This is the grid area for the image of myself */
+	
+	padding: 20px; 
+  text-align: center;
+	 margin: 10px;
+	
+		
+}
+#about {grid-area: about;/* This code include making the about the page area a lightblue background colour and also makes sure it's evenly spaced out and centered correctly. */
+	background-color: lightsteelblue;
+	 margin: 10px;
+padding: 10px; 
+  text-align: center;
+	border-radius: 30px; /* Makes the corners more round */
+	font-size: 25px; /* Changes the text size */
+	list-style-type: circle; /* This makes the bullet points in more of a fancy circle shape instead of the default bullet points */
+	
+	
+}
+a{
+	text-decoration: none; /* Make sure that when the texts are linked to other pages it isn't underlined or a different colour or anything like that */
+	color: white; /* Makes those linked texts white */
+}
